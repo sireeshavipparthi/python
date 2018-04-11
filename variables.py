@@ -15,4 +15,4 @@ print(greeting)\
 
 number =1
 secondnumber = 2
-print(number * secondnumber +secondnumber *number)
+print(number * secondnumber + secondnumber *number)

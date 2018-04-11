@@ -9,10 +9,9 @@ def print_something(name,age):
 
 def print_something(name = "someone ",age = "unknown"):
     print("My name is", name ,"and my age is ", age)
-    print_something()
-
+    print_something(27)
 
 # keyword arguments
 def print_something(name = "someone ",age = "unknown"):
     print("My name is", name ,"and my age is ", age)
-    print_something(age = 27, name ="maks")
+    print_something(age = 27, name = "maks")
