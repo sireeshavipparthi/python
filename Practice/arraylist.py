@@ -24,3 +24,16 @@ print (my_list.pop(0))
 print (my_list.pop())
 print (my_list[-1])
 print (my_list[-2])
+
+
+Fruits =(['Mango','orange'])
+print (Fruits[1])
+Fruits[1] = 'kiwi'
+print (Fruits)
+
+
+#finding an element from list
+#Exceptions
+animals = ['man','bear','pig']
+bear_index = animals.index('bear')
+print (bear_index)
